@@ -1,0 +1,20 @@
+.cardWrap{
+    .card{
+        border-color: #1ad1ff;
+        .img{
+            width: 100px!important;
+            height: 100px;
+            margin: 10px auto;
+            border: 2px solid #1ad1ff;
+            padding: 3px;
+        }
+        .btnPrimary{
+            background-color: #1ad1ff;
+            border-color: transparent;
+            &:hover{
+                opacity: .8;
+            }
+        }
+    }
+   
+}

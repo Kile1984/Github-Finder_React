@@ -1,0 +1,16 @@
+.btnCustom{
+    background-color: #1ad1ff;
+    border-color: transparent;
+    &:hover, &:active, &:focus{
+        background-color: #1ad1ff;
+        border-color: transparent;
+        opacity: .8;
+    }
+}
+.input{
+    border-color: #1ad1ff;
+    &:focus{
+        box-shadow: 0 0 0 0.1rem rgb(179, 255, 179);
+        border-color: #1ad1ff;
+    }
+}
